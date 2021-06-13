@@ -1,0 +1,32 @@
+{
+  "name": "knpm",
+  "version": "1.0.0",
+  "description": "App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon my_file.js"
+  },
+  "author": "Wouterfm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "node-hue-api": "^4.0.10",
+    "play-sound": "^1.1.3",
+    "socket.io": "^2.4.1",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wouterfm/karelfm_visualradio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wouterfm/karelfm_visualradio/issues"
+  },
+  "homepage": "https://github.com/wouterfm/karelfm_visualradio#readme"
+}
